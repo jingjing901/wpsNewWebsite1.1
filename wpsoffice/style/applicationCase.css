@@ -1,0 +1,314 @@
+.titleText{
+    padding-top:50px;
+    padding-bottom: 26px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 方正兰亭细黑_GBK Regular;
+    color: #333333;
+}
+.titleText span{
+    display: block;
+    text-align: center;
+}
+.panel-body{
+    padding-top: 55px;
+}
+.subHead {
+    padding: 0px;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 8px;
+}
+
+.subHead .navbar-toggle {
+    width: 320px;
+    margin-left: -180px;
+    margin-top: 10px;
+}
+.carouselItem{
+    height: 526px;
+}
+.carousel-inner ul{
+    margin:auto 0;
+    padding: 0px;
+}
+.partner{
+    font-size: 20px;
+    color: #101010;
+    display: block;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.lineAction {
+    width: 30px;
+    display: block;
+    float: right;
+    margin-top: 28px;
+    margin-left: 85px
+}
+
+.caseText {
+    color: #101010;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: 方正兰亭纤黑简体;
+}
+
+.navbar-collapse1 .nav {
+    margin-top: 62px;
+}
+.lin20 li a {
+    color: #666666;
+    line-height: 20px;
+}
+.lin20 li a:hover {
+    color: #1e92cf;
+    background: transparent;
+}
+.lin20 li a:focus {
+    color: #1e92cf;
+    background: transparent;
+}
+@media (max-width: 767px) {
+    .subHead {
+        height: 72px;
+    }
+    .lin20 {
+         width: 100%;
+        z-index: 9999;
+         background: #f0f0f0;
+     }
+
+
+}
+@media (min-width: 768px) {
+    .subHead {
+        height: 52px;
+    }
+    .lin20{
+        /*width: 340px;*/
+    }
+    .navbar-collapse{
+        margin: auto 0px;
+        padding: 0px;
+    }
+    .lin20 li{
+        float: left;
+        font-size: 14px;
+        word-spacing: 0px;
+        margin-left: 30px;
+    }
+
+}
+@media (min-width: 768px) {
+    .subHead {
+        height: 52px;
+    }
+
+}
+.item,.itemText{
+    display: block;
+    font-size: 40px;
+    padding-top: 70px;
+    color: #ffffff;
+}
+.item,.itemTextA{
+    font-size: 22px;
+    padding-top: 16px;
+    color: #ffffff;
+}
+.item,.itemTextA:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+.item,.itemTextA:focus{
+    color: lightgray;
+    text-decoration: none;
+}
+
+@media (min-width: 1209px) {
+    .slide01{
+        background: url("../images/middleL.png");
+        height: 596px;
+    }
+}
+@media (max-width: 1208px) {
+    .slide01{
+        background: url("../images/middleM.png");
+        height: 525px;
+    }
+}
+@media (max-width: 991px) {
+    .slide01{
+        background: url("../images/middleS.png");
+        height: 409px;
+    }
+    .panel{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 767px) {
+    .slide01{
+        background: url("../images/middleXS.png");
+        height: 409px;
+    }
+    .panel{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+.slide01{
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.carousel{
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+.carousel-control img{
+    padding-top: 170px;
+}
+.collapseItem .carousel-control img{
+    padding-top: 120px;
+}
+@media (min-width: 1009px) {
+    .carousel-control.left {
+        left: 8%;
+    }
+    .carousel-control.right {
+        right: 8%;
+    }
+    .collapseItem .carousel-control.left{
+        left: 0%;
+    }
+    .collapseItem .carousel-control.right{
+        right: 0%;
+    }
+    .carousel-control img{
+        padding-top: 230px;
+    }
+    .panel{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+@media (min-width: 1609px) {
+    .carousel-control.left {
+        left: 14%;
+    }
+    .carousel-control.right {
+        right: 14%;
+    }
+    .panel{
+        width: 56%;
+        margin-left: 22%;
+    }
+}
+
+.panel{
+    border-top: 1px solid #e3e3e3;
+    /*border-bottom: 1px solid #e3e3e3;*/
+}
+.Nopanel{
+    border-top: 1px solid #ffffff;
+}
+.panel .panel-heading a{
+    display: block;
+    height: 120px;
+    line-height: 120px;
+    font-size: 22px;
+    font-family: 苹方-简;
+    color: #575858;
+    text-decoration: none;
+}
+
+.xleft,.xright{
+    display: block;
+    width: 1px;
+    border: 1px solid #575858;
+    height: 30px;
+    position: absolute;
+    top:50px;
+}
+.xleftA{
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); /* Internet Explorer */
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg); /* Opera */
+    transition: transform 0.4s;
+    -moz-transition:transform 0.4s;
+    -webkit-transition:transform 0.4s;
+    -o-transition:transform 0.4s;
+}
+.xrightA{
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* Internet Explorer */
+    -moz-transform:rotate(0deg); /* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+    -o-transform:rotate(0deg); /* Opera */
+    transition: transform 0.4s;
+    -moz-transition:transform 0.4s;
+    -webkit-transition:transform 0.4s;
+    -o-transition:transform 0.4s;
+}
+.xrightAction{
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* Internet Explorer */
+    -moz-transform:rotate(45deg); /* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg); /* Opera */
+    transition: transform 0.4s;
+    -moz-transition:transform 0.4s;
+    -webkit-transition:transform 0.4s;
+    -o-transition:transform 0.4s;
+}
+.xleftAction{
+    transform:rotate(135deg);
+    -ms-transform:rotate(135deg); /* Internet Explorer */
+    -moz-transform:rotate(135deg); /* Firefox */
+    -webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+    -o-transform:rotate(135deg); /* Opera */
+    transition: transform 0.4s;
+    -moz-transition:transform 0.4s;
+    -webkit-transition:transform 0.4s;
+    -o-transition:transform 0.4s;
+}
+.panel-bodyNo{
+    border-top: none;
+}
+.bgChange{
+    background: #f0f0f0;
+    transition: background 1s;
+    -moz-transition:background 1s;
+    -webkit-transition:background 1s;
+    -o-transition:background 1s;
+}
+
+@media (min-width: 768px) {
+    .subHead .collapse{
+        display: block;
+    }
+    .navbar-collapse1 .nav{
+        margin-top: 0px;
+    }
+}
+
+.introduce{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+.introduce a{
+    display: block;
+    margin-top: 16px;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+@media (min-width: 1200px) {
+    .introduce .Offset{
+        margin-left: 12.5%;
+    }
+}

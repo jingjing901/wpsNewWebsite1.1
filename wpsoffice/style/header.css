@@ -1,0 +1,186 @@
+header{
+    width: 100%;
+    margin: auto 0px;
+    padding: 0px;
+    font-size: 15px;
+    height: 40px;
+}
+@media (max-width: 767px) {
+    .navbar-nav .text-img{
+        display: none;
+    }
+    .navbar-nav{
+        width: 100%;
+        min-height: 50px;
+    }
+    .subhead .sp01{
+        font-size: 15px;
+    }
+    .allScreen{
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background: #101010;
+        transition: height 0.4s;
+    }
+    .NoallScreen{
+        height: 52px;
+        transition: height 0.4s;
+        transition-delay: 0.2s;
+    }
+    #navUl{
+        position: fixed;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav{
+        width: 100%;
+        min-height: 40px;
+    }
+    .one{
+        width: 15%;
+    }
+    .twow{
+        width: 13.5%;
+    }
+    .two{
+        width: 11.5%;
+    }
+    .three{
+        width: 10%;
+    }
+    .four{
+        width: 17%;
+    }
+    .five{
+        width: 14%;
+    }
+    .six{
+        width: 7%;
+    }
+    .seven{
+        width: 12%;
+    }
+    .imgAbsolt{
+        position: absolute;
+        top: 10px;
+    }
+    .circle{
+        width: 5px;
+        height: 5px;
+        border: none;
+        border-radius: 50px;
+        background: #ffffff;
+        position: absolute;
+        top:34px;
+        opacity: 0;
+    }
+    .yesDisplay{
+        opacity: 1;
+        transition: opacity 0.4s;
+        transition-delay: 0.2s;
+        left: 48%;
+    }
+    .noOpcity{
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .navbar-nav>li{
+        text-align: center;
+    }
+    .border-right{
+        width: 1px;
+        height: 26px;
+        background: #ffffff;
+        position: absolute;
+        top: 10px;
+        left: 100%;
+    }
+}
+
+.Opcity{
+    opacity: 0.5;
+}
+.OpcityNo{
+    opacity: 1;
+}
+.navbar-header .left,.navbar-header .left1,.navbar-header .right,.navbar-header .right1{
+    display: block;
+    float: left;
+    width: 10px;
+    color: #fff;
+    border:1px solid #fff;
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-header .left1,.navbar-header .right1{
+    border: 1px solid #000000;
+}
+.tr{
+    transform: rotate(-20deg);
+    transform-origin: right;
+    transition: transform 0.7s;
+}
+.th{
+    transform: rotate(20deg);
+    transform-origin: left;
+    transition: transform 0.7s;
+}
+.tr1{
+    transform: rotate(0deg);
+    transform-origin: right;
+    transition: transform 0.7s;
+}
+.th1{
+    transform: rotate(0deg);
+    transform-origin: left;
+    transition: transform 0.7s;
+}
+.sbtr{
+    transform: rotate(-30deg);
+    transform-origin: left;
+    transition: transform 0.7s;
+}
+.sbth{
+    transform: rotate(30deg);
+    transform-origin: right;
+    transition: transform 0.7s;
+}
+.sbtr1{
+    transform: rotate(30deg);
+    transform-origin: left;
+    transition: transform 0.7s;
+}
+.sbth1{
+    transform: rotate(-30deg);
+    transform-origin: right;
+    transition: transform 0.7s;
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar-nav > li {
+    text-align: center;
+}
+.subhead{
+    padding: 0px;
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-top: 18px;
+}
+.icon-img01{
+    float: left;
+    width: 200px;
+}
+.fixation{
+    position: fixed;
+    top:0px;
+    background: #ffffff;
+    z-index: 99999;
+    opacity: 0.9;
+}

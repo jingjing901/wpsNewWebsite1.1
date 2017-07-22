@@ -1,0 +1,115 @@
+
+.subhead .sp01{
+    font-size: 20px;
+    font-family: SF Compacta Display Ultralight;
+}
+@media (min-width: 489px) {
+    .subhead .sp02 {
+        width: 116px;
+        height: 28px;
+        background: #292c36;
+        font-family: 方正兰亭纤黑简体;
+        color: #ffffff;
+        font-size: 12px;
+        border-radius: 5px;
+        line-height: 28px;
+    }
+}
+@media (min-width: 489px) {
+    .wps2016{
+        padding-top: 138px;
+    }
+}
+.wpsNext{
+    width: 100%;
+    font-size: 16.67px;
+    color: #5eafdd;
+    display: block;
+    margin-top: 22px;
+    margin-bottom: 50px;
+}
+@media (max-width: 488px) {
+    .wps2016{
+        padding-top: 98px;
+    }
+    .wps2016 .wpsNext{
+        margin-top: 34px;
+    }
+    .subhead .sp01{
+        font-size: 13px;
+    }
+    .subhead .sp02 {
+        height: 26px;
+        background: #292c36;
+        font-family: 方正兰亭纤黑简体;
+        color: #ffffff;
+        font-size: 9px;
+        border-radius: 5px;
+        line-height: 26px;
+    }
+}
+/*@media (min-width: 1309px) {*/
+    /*.personText{*/
+        /*float: left;*/
+        /*margin-left: 30%;*/
+    /*}*/
+/*}*/
+.wpsPerson{
+    margin: auto 0;
+    padding: 0px;
+}
+@media (min-width: 1209px) {
+    .wps2016Bg{
+        background: url("../images/2016PCL.png");
+        height: 835px;
+    }
+    .wpsPersonBg{
+        background: url("../images/personL.png");
+        height: 490px;
+    }
+    .wpsPerson{
+        margin-top: 176px;
+    }
+}
+    .personText{
+        width: 52%;
+        float: left;
+        text-align: right;
+        margin-top: 20px;
+    }
+@media (max-width: 1208px) {
+    .wps2016Bg{
+        background: url("../images/2016PCM.png");
+        height: 685px;
+    }
+    .wpsPersonBg{
+        background: url("../images/personM.png");
+        height: 452px;
+    }
+    .wpsPerson{
+        margin-top: 170px;
+    }
+}
+@media (max-width: 767px) {
+    .wps2016Bg{
+        background: url("../images/2016PCS.png");
+        height: 395px;
+    }
+    .wpsPersonBg{
+        background: url("../images/personS.png");
+        height: 389px;
+    }
+    .wpsPerson{
+        margin-top: 120px;
+    }
+    .personText{
+        width: 100%;
+        text-align: center;
+        float: none;
+
+    }
+}
+.wps2016Bg,.wpsPersonBg{
+     background-repeat: no-repeat;
+     background-position: 50% 0;
+ }
